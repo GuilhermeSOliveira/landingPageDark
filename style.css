@@ -28,6 +28,10 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 main {
     background-color:  hsl(219, 30%, 18%);
 }
@@ -163,9 +167,106 @@ h2 {
 .paragrafoBeneficios {
     color: #FFF;
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     text-align: center;
     margin: 1em 0;
+    line-height: 1.5em;
+}
+
+.descricao {
+    display: flex;
+    margin: 0 auto;
+    background-color: hsl(218, 28%, 13%);
+}
+
+.descricaoImagem {
+    margin: 100px auto;
+}
+
+.descricaoTexto {
+    margin: auto 10% auto 0;
+}
+
+.descricaoTitulo {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1em;
+    margin: 1em 0;
+}
+
+.descricaoParagrafo {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color:#FFF;
+    text-align: left;
+    margin: 1.5em 0;
+    line-height: 1.5em;
+}
+
+.descricaoAncora {
+    color:hsl(176, 68%, 64%);
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-bottom: 5px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.container {
+    display: flex;
+    order: 3;
+    justify-content: center;
+    background-color:hsl(218, 28%, 13%);
+    float: inline-end;
+}
+
+.aspas {
+    position: relative;
+    height: 50px;
+    width: 60px;
+    left: 80px;
+
+}
+
+.boxComentario {
+    margin: 30px 30px;
+    height: 150px;
+    width: 350px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px hsl(216, 53%, 9%);
+}
+
+.comentario {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.perfil {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.indentidade {
+    color: #FFF;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 10px;
     line-height: 1.5em;
 }
