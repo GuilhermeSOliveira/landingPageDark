@@ -1,6 +1,4 @@
 body {
-    height: 1080px;
-    width: 1903px;
     overflow-x: hidden;
 }
 
@@ -20,12 +18,14 @@ header {
 nav {
     display: inline;
     margin-left: 50%;
+    width: 100%;
 }
 
 a {
     margin: 30px;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
+    width: 100%;
 }
 
 a:hover {
@@ -34,10 +34,12 @@ a:hover {
 
 main {
     background-color:  hsl(219, 30%, 18%);
+    width: 100%;
 }
 
-#imagem-intro {
+#imagemIntro {
     margin: 0 30%;
+    width: auto;
 }
 
 .background {
@@ -47,7 +49,7 @@ main {
 }
 
 #imagemDeFundo {
-    width: 1920px;
+    width: 100%;
     margin: 100px 0 0 0;
 }
 
@@ -138,7 +140,7 @@ button:hover {
 }
 
 .beneficios {
-    width: 1920px;
+    width: 100%;
     display: grid;
     grid-template-columns: 200px 200px;
     grid-column-gap: 400px;
@@ -235,7 +237,7 @@ h2 {
 }
 
 .boxComentario {
-    margin: 30px 30px;
+    margin: 30px 30px 500px;
     height: 150px;
     width: 350px;
     background-color: hsl(219, 30%, 18%);
@@ -269,4 +271,173 @@ h2 {
     font-size: 12px;
     margin-left: 10px;
     line-height: 1.5em;
+}
+
+footer {
+    background-color: hsl(216, 53%, 9%);
+    height: 600px;
+    width: 100%;
+}
+
+.logoRodape {
+    margin: 200px 400px 50px 100px;
+}
+
+.localizacaoImagem {
+    position: absolute;
+    left: 100px;
+}
+
+.localizacaoTexto {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    left: 140px;
+    line-height: 1.5em;
+}
+
+.telefoneImagem {
+    position: absolute;
+    left: 600px;
+}
+
+.telefone {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    left: 640px;
+}
+
+.emailImagem {
+    position: absolute;
+    left: 600px;
+    margin: 40px 0 0;
+}
+
+.email {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+    left: 640px;
+    margin: 40px 0 0;
+}
+
+.sobrenos1, .sobrenos2, .sobrenos3, .sobrenos4 {
+    position: absolute;
+    left: 1100px;
+}
+
+.sobrenos1 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.sobrenos2 {
+    margin: 40px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.sobrenos3 {
+    margin: 80px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.sobrenos4 {
+    margin: 120px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.contato1, .contato2, .contato3 {
+    position: absolute;
+    left: 1250px;
+}
+
+.contato1 {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.contato2 {
+    margin: 40px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.contato3 {
+    margin: 80px 0 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFF;
+}
+
+.redesSociais {
+    position: absolute;
+    left: 1500px;
+}
+
+.redesSociaisIcons {
+    height: 32px;
+    cursor: pointer;
+}
+
+.acessoAntecipado {
+    position: absolute;
+    height: 350px;
+    width: 60%;
+    background-color: hsl(219, 30%, 18%);
+    top: 3200px;
+    left: 370px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px hsl(215, 43%, 5%);
+}
+
+.tituloFree {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.descricaoFree {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.emailFree {
+    height: 50px;
+    width: 600px;
+    margin: 60px 50px 0 125px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
 }
