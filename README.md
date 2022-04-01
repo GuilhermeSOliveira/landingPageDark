@@ -10,4 +10,7 @@ Resultado final do projeto:
 ![Getting Started](./images/desktop-preview.jpg)
 
 
+![Getting Started](./images/desktop-design.jpg)
+
+
 Projeto feito durante mentoria CSV.
